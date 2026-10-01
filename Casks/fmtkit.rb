@@ -4,21 +4,21 @@ cask "fmtkit" do
 
   on_macos do
     on_arm do
-      sha256 "3d6138ea6adb344d2af99e42040262af00f782ca1e5374c8ee79d72762f630a4"
+      sha256 "8fb17970faa86760604b7fb73887a0f7372e51393429300027a5068bc5497f4f"
       url "https://github.com/oullin/fmtkit/releases/download/v#{version}/fmtkit_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7523a4205176307ac6d7577429a40622e10afb4d19aa7ade170fac347ced94ac"
+      sha256 "2ca110f6548b8019f9ddf4f893fb9bbe6e6476a2669ea633e70aa34488db0ac4"
       url "https://github.com/oullin/fmtkit/releases/download/v#{version}/fmtkit_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "01544e22f4d94b1a2934f56ff76fabd2be62b0982c402559754f82754f341de2"
+      sha256 "19085b76003bba75d86b0b83fd4d6e52f80aac773bb9a2560ca1d81fd744fbc5"
       url "https://github.com/oullin/fmtkit/releases/download/v#{version}/fmtkit_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "97e2d124a9db5c73a64b9f97ee0957501c650f900ee12fd360da8495f156aa0d"
+      sha256 "dbf180347cc53b918c14e61825ca174b4d22825df34f5338f97b9a4707db2c98"
       url "https://github.com/oullin/fmtkit/releases/download/v#{version}/fmtkit_#{version}_linux_amd64.tar.gz"
     end
   end
