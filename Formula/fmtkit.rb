@@ -1,25 +1,25 @@
 class Fmtkit < Formula
   desc "Formats and checks Go, TypeScript, JavaScript, Vue, HTML, and Markdown repositories."
   homepage "https://github.com/oullin/fmtkit"
-  version "2.5.0"
+  version "2.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/oullin/fmtkit/releases/download/v2.5.0/fmtkit-aarch64-apple-darwin.tar.xz"
-      sha256 "2e0714a321840fde10a1e872a1365fffe8a4c35a3529bbefaa4c23c9b6a2883d"
+      url "https://github.com/oullin/fmtkit/releases/download/v2.6.0/fmtkit-aarch64-apple-darwin.tar.xz"
+      sha256 "903f4c30a8ac30639d5b9d814353f58207b6afcaa89e9b96c29cce128d7ba72e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/oullin/fmtkit/releases/download/v2.5.0/fmtkit-x86_64-apple-darwin.tar.xz"
-      sha256 "6a2f2b31e4d7031ed9530ab871980e7f001672c90c8e87f5784f131f2254a4a6"
+      url "https://github.com/oullin/fmtkit/releases/download/v2.6.0/fmtkit-x86_64-apple-darwin.tar.xz"
+      sha256 "e2cc30d38fcfdf2a58f677096821d41c515b02ead014e32ea9ed6c662c2c78c0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/oullin/fmtkit/releases/download/v2.5.0/fmtkit-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "afb232acb2b675965d24366e64e53bd83949bb517cf18354c6865622d3bbf672"
+      url "https://github.com/oullin/fmtkit/releases/download/v2.6.0/fmtkit-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "150736b770cc6326bfc35709c63697cd5b9c151b09a8de6950b4ead2235a1109"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/oullin/fmtkit/releases/download/v2.5.0/fmtkit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3d317eed92e8d8d6b3680953306fb5d87caa80e702a6dbba7b6650721134c4ff"
+      url "https://github.com/oullin/fmtkit/releases/download/v2.6.0/fmtkit-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "bb974bdf96d70e76f55d333c8ef12566e17c62a37b510572fb6662bb9f86b8a0"
     end
   end
   license "MIT"
